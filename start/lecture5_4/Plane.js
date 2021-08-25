@@ -29,7 +29,7 @@ class Plane{
 
 				this.scene.add( gltf.scene );
                 this.plane = gltf.scene;
-                this.velocity = new Vector3(0,0,0.1);
+                this.velocity = new Vector3(0,0,0.5);
                 
                 this.propeller = this.plane.getObjectByName("propeller");
 
@@ -53,7 +53,7 @@ class Plane{
 
     reset(){
         this.plane.position.set(0, 0, 0);
-        this.velocity.set(0,0,0.1);
+        this.velocity.set(0,0,0.2);
     }
 
     update(time){

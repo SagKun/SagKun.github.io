@@ -58,7 +58,7 @@ class Plane{
     reset(){
         this.plane.position.set(0, 0, 0);
         this.plane.visible = true;
-        this.velocity.set(0,0,0.1);
+        this.velocity.set(0,0,0.3);
     }
 
     update(time){
